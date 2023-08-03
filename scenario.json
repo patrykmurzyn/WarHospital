@@ -1,0 +1,1322 @@
+[
+    {
+        "id": 0,
+        "type": 0,
+        "titleKey": "Lp0004Title",
+        "descriptionKey": "Lp0004"
+    },
+    {
+        "id": 1,
+        "type": "0",
+        "titleKey": "Lp0008Title",
+        "descriptionKey": "Lp0008"
+    },
+    {
+        "id": 2,
+        "type": 0,
+        "titleKey": "Lp0012Title",
+        "descriptionKey": "Lp0012"
+    },
+    {
+        "id": 3,
+        "type": 0,
+        "titleKey": "Lp0015Title",
+        "descriptionKey": "Lp0015"
+    },
+    {
+        "id": 4,
+        "type": 0,
+        "titleKey": "Lp0016Title",
+        "descriptionKey": "Lp0016"
+    },
+    {
+        "id": 5,
+        "type": 1,
+        "titleKey": "Lp0017Title",
+        "descriptionKey": "Lp0017",
+        "decisions": [
+            {
+                "title": "P1"
+            },
+            {
+                "title": "P2"
+            },
+            {
+                "title": "P3"
+            },
+            {
+                "title": "P4"
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0017Result0Title",
+                "DescriptionKey": "Lp0017Result0"
+            },
+            {
+                "titleKey": "Lp0017Result1Title",
+                "DescriptionKey": "Lp0017Result1"
+            },
+            {
+                "titleKey": "Lp0017Result2Title",
+                "DescriptionKey": "Lp0017Result2"
+            },
+            {
+                "titleKey": "Lp0017Result3Title",
+                "DescriptionKey": "Lp0017Result3"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": 0,
+        "titleKey": "Lp0020Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0020",
+        "soldiers": 12
+    },
+    {
+        "id": 7,
+        "type": 1,
+        "titleKey": "Lp0024Title",
+        "titleToCharater": "Lider",
+        "descriptionKey": "Lp0024",
+        "decisions": [
+            {
+                "title": "Lp0024Choice0",
+                "trigger": 25,
+                "morale": 1
+            },
+            {
+                "title": "Lp0024Choice1",
+                "trigger": 26,
+                "morale": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0024ResultChoice0Title",
+                "DescriptionKey": "Lp0024ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0024ResultChoice1Title",
+                "DescriptionKey": "Lp0024ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": 1,
+        "titleKey": "Lp0028Title",
+        "titleToCharater": "P2",
+        "descriptionKey": "Lp0028",
+        "decisions": [
+            {
+                "title": "Lp0028Choice0",
+                "trigger": 29,
+                "georges": 1
+            },
+            {
+                "title": "Lp0028Choice1",
+                "trigger": 30,
+                "georges": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0028ResultChoice0Title",
+                "DescriptionKey": "Lp0028ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0028ResultChoice1Title",
+                "DescriptionKey": "Lp0028ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": 0,
+        "titleKey": "Lp0032Title",
+        "titleToCharater": "Lider",
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    25,
+                    29
+                ],
+                "descriptionKey": "Lp0032Option1"
+            },
+            {
+                "triggerRequirements": [
+                    26,
+                    29
+                ],
+                "descriptionKey": "Lp0032Option3"
+            },
+            {
+                "triggerRequirements": [
+                    25
+                ],
+                "descriptionKey": "Lp0032Option0"
+            },
+            {
+                "triggerRequirements": [
+                    26
+                ],
+                "descriptionKey": "Lp0032Option2"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": 1,
+        "titleKey": "Lp0033Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0033",
+        "decisions": [
+            {
+                "title": "Lp0033Choice0",
+                "morale": 1
+            },
+            {
+                "title": "Lp0033Choice1",
+                "trigger": 35
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0033ResultChoice0Title",
+                "DescriptionKey": "Lp0033ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0033ResultChoice1Title",
+                "DescriptionKey": "Lp0033ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": 0,
+        "titleKey": "Lp0036Title",
+        "titleToCharater": "All",
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    29
+                ],
+                "descriptionKey": "Lp0036Option1"
+            },
+            {
+                "descriptionKey": "Lp0036Option0"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "type": 0,
+        "titleKey": "Lp0038Title",
+        "titleToCharater": "P2",
+        "descriptionKey": "Lp0038",
+        "displayRequirements": {
+            "triggerRequirements": [
+                30
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "type": 0,
+        "titleKey": "Lp0040Title",
+        "titleToCharater": "Lider",
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    26
+                ],
+                "descriptionKey": "Lp0040Option1"
+            },
+            {
+                "descriptionKey": "Lp0040Option0"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "type": 2,
+        "titleKey": "Wave 1-1",
+        "waveOptions": {
+            "waveTime": [
+                33.0,
+                28.5,
+                24.0,
+                21.0
+            ],
+            "trigger": 26,
+            "triggerTimeModyfication": -30,
+            "moraleMultipler": 3,
+            "ammount": [
+                1,
+                3
+            ],
+            "ammountTrigger": [
+                621,
+                622,
+                623
+            ],
+            "effectiveness": 2,
+            "moraleToAdd": 1,
+            "DescriptionOptionTitleKey0": "Lp0065Option0Title",
+            "DescriptionOptionTitleKey1": "Lp0065Option1Title",
+            "DescriptionOptionKey0": "Lp0065Option0",
+            "DescriptionOptionKey1": "Lp0065Option1"
+        }
+    },
+    {
+        "id": 15,
+        "type": 0,
+        "titleKey": "Lp0068Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0068",
+        "displayRequirements": {
+            "triggerRequirements": [
+                29
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "type": 0,
+        "titleKey": "Lp0072Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0072",
+        "displayRequirements": {
+            "characterIdNeverScan": 2
+        },
+        "morale": -2
+    },
+    {
+        "id": 17,
+        "type": 0,
+        "titleKey": "Lp0073Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0073",
+        "displayRequirements": {
+            "andOperationRequirements": true,
+            "triggerRequirements": [
+                621
+            ],
+            "lessThanDeadPatient": 1
+        }
+    },
+    {
+        "id": 18,
+        "type": 0,
+        "titleKey": "Lp0074Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0074",
+        "displayRequirements": {
+            "triggerRequirements": [
+                622
+            ]
+        },
+        "timer": -10
+    },
+    {
+        "id": 19,
+        "type": 0,
+        "titleKey": "Lp0075Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0075",
+        "displayRequirements": {
+            "triggerRequirements": [
+                623
+            ]
+        },
+        "timer": -15,
+        "effectiveness": -1
+    },
+    {
+        "id": 20,
+        "type": 0,
+        "titleKey": "Lp0076Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0076",
+        "displayRequirements": {
+            "triggerRequirements": [
+                25
+            ]
+        },
+        "timer": -15,
+        "effectiveness": -1
+    },
+    {
+        "id": 21,
+        "type": 1,
+        "titleKey": "Lp0077Title",
+        "titleToCharater": "P2",
+        "descriptionKey": "Lp0077",
+        "decisions": [
+            {
+                "title": "Lp0077Choice0",
+                "georges": 1
+            },
+            {
+                "title": "Lp0077Choice1",
+                "trigger": 79
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0077ResultChoice0Title",
+                "DescriptionKey": "Lp0077ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0077ResultChoice1Title",
+                "DescriptionKey": "Lp0077ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "type": 0,
+        "titleKey": "Lp0080Title",
+        "descriptionKey": "Lp0080",
+        "titleToCharater": "All"
+    },
+    {
+        "id": 23,
+        "type": 0,
+        "titleKey": "Lp0084Title",
+        "descriptionKey": "Lp0084",
+        "titleToCharater": "All"
+    },
+    {
+        "id": 24,
+        "type": 1,
+        "titleKey": "Lp0088Title",
+        "titleToCharater": "Lider",
+        "descriptionKey": "Lp0088",
+        "decisions": [
+            {
+                "title": "Lp0088Choice0",
+                "trigger": 89
+            },
+            {
+                "title": "Lp0088Choice1",
+                "trigger": 90,
+                "morale": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0088ResultChoice0Title",
+                "DescriptionKey": "Lp0088ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0088ResultChoice1Title",
+                "DescriptionKey": "Lp0088ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "type": 1,
+        "titleKey": "Lp0092Title",
+        "titleToCharater": "P2",
+        "descriptionKey": "Lp0092",
+        "displayRequirements": {
+            "triggerRequirements": [
+                29
+            ]
+        },
+        "decisions": [
+            {
+                "title": "Lp0092Choice0",
+                "trigger": 93,
+                "morale": 1,
+                "georges": 1
+            },
+            {
+                "title": "Lp0092Choice1",
+                "trigger": 94,
+                "georges": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0092ResultChoice0Title",
+                "DescriptionKey": "Lp0092ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0092ResultChoice1Title",
+                "DescriptionKey": "Lp0092ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "type": 1,
+        "titleKey": "Lp0096Title",
+        "titleToCharater": "P2",
+        "descriptionKey": "Lp0096",
+        "displayRequirements": {
+            "triggerRequirements": [
+                30
+            ]
+        },
+        "decisions": [
+            {
+                "title": "Lp0096Choice0",
+                "trigger": 97,
+                "georges": 1
+            },
+            {
+                "title": "Lp0096Choice1",
+                "trigger": 98,
+                "morale": -1,
+                "georges": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0096ResultChoice0Title",
+                "DescriptionKey": "Lp0096ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0096ResultChoice1Title",
+                "DescriptionKey": "Lp0096ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "type": 1,
+        "titleKey": "Lp0100Title",
+        "titleToCharater": "Lider",
+        "descriptionKey": "Lp0100",
+        "decisions": [
+            {
+                "title": "Lp0100Choice0",
+                "trigger": 101
+            },
+            {
+                "title": "Lp0100Choice1",
+                "morale": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0100ResultChoice0Title",
+                "DescriptionKey": "Lp0100ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0100ResultChoice1Title",
+                "DescriptionKey": "Lp0100ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "type": 0,
+        "titleKey": "Lp0103Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0103",
+        "displayRequirements": {
+            "moraleLessThan": 10
+        }
+    },
+    {
+        "id": 29,
+        "type": 0,
+        "titleKey": "Lp0104Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0104",
+        "displayRequirements": {
+            "moraleMoreThan": 12
+        }
+    },
+    {
+        "id": 30,
+        "type": 1,
+        "titleKey": "Lp0105Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0105",
+        "displayRequirements": {
+            "triggerAndOperation": true,
+            "triggerRequirements": [
+                90,
+                101
+            ]
+        },
+        "decisions": [
+            {
+                "title": "Lp0105Choice0",
+                "trigger": 101
+            },
+            {
+                "title": "Lp0105Choice1",
+                "morale": -1
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0105ResultChoice0Title",
+                "DescriptionKey": "Lp0105ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0105ResultChoice1Title",
+                "DescriptionKey": "Lp0105ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "type": 0,
+        "titleKey": "Lp0108Title",
+        "titleToCharater": "Lider",
+        "descriptionKey": "Lp0108",
+        "displayRequirements": {
+            "triggerRequirements": [
+                101
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "type": 0,
+        "titleKey": "Lp0112Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0112"
+    },
+    {
+        "id": 33,
+        "type": 0,
+        "titleKey": "Lp0114Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0114"
+    },
+    {
+        "id": 34,
+        "type": 3,
+        "titleKey": "Lp0115Title",
+        "descriptionKey": "Lp0115",
+        "soldiersAmmount": {
+            "ammount": [
+                3,
+                1,
+                0
+            ],
+            "morale": [
+                2,
+                -2,
+                -3
+            ],
+            "trigger": [
+                117,
+                117,
+                0
+            ],
+            "effectiveness": [
+                0,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "type": 0,
+        "titleKey": "Lp0119Title",
+        "titleToCharater": "Lider",
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    35
+                ],
+                "descriptionKey": "Lp0119Option1"
+            },
+            {
+                "descriptionKey": "Lp0119Option0"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "type": 2,
+        "titleKey": "Wave 1-2",
+        "waveOptions": {
+            "waveTime": [
+                39.0,
+                30.0,
+                24.0,
+                18.0
+            ],
+            "trigger": 93,
+            "triggerTimeModyfication": 20,
+            "moraleMultipler": 3,
+            "ammount": [
+                3,
+                6
+            ],
+            "ammountTrigger": [
+                621,
+                622,
+                623
+            ],
+            "effectiveness": 4,
+            "moraleToAdd": 2,
+            "DescriptionOptionTitleKey0": "Lp0152Option0Title",
+            "DescriptionOptionTitleKey1": "Lp0152Option1Title",
+            "DescriptionOptionKey0": "Lp0152Option0",
+            "DescriptionOptionKey1": "Lp0152Option1"
+        }
+    },
+    {
+        "id": 37,
+        "type": 0,
+        "titleKey": "Lp0162Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0162",
+        "displayRequirements": {
+            "operation": 1,
+            "triggerRequirements": [
+                621
+            ],
+            "lessThanDeadPatient": 3
+        }
+    },
+    {
+        "id": 38,
+        "type": 0,
+        "titleKey": "Lp0163Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0163",
+        "displayRequirements": {
+            "triggerRequirements": [
+                622
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "type": 0,
+        "titleKey": "Lp0164Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0164",
+        "displayRequirements": {
+            "triggerRequirements": [
+                623
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "type": 0,
+        "titleKey": "Lp0168Title",
+        "titleToCharater": "Lider",
+        "descriptionKey": "Lp0168",
+        "displayRequirements": {
+            "triggerRequirements": [
+                101
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "type": 0,
+        "titleKey": "Lp0172Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0172",
+        "displayRequirements": {
+            "characterIdNeverScan": 2
+        }
+    },
+    {
+        "id": 42,
+        "type": 0,
+        "titleKey": "Lp0176Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0176",
+        "displayRequirements": {
+            "characterIdNeverScan": 6
+        }
+    },
+    {
+        "id": 43,
+        "type": 0,
+        "titleKey": "Lp0180Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0180",
+        "displayRequirements": {
+            "triggerRequirements": [
+                117
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "type": 0,
+        "titleKey": "Lp0184Title",
+        "titleToCharater": "P2",
+        "displayRequirements": {
+            "triggerRequirements": [
+                93,
+                97
+            ]
+        },
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    30
+                ],
+                "descriptionKey": "Lp0184Option1"
+            },
+            {
+                "descriptionKey": "Lp0184Option0"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "type": 1,
+        "titleKey": "Lp0185Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0185",
+        "displayRequirements": {
+            "triggerRequirements": [
+                94,
+                98
+            ]
+        },
+        "decisions": [
+            {
+                "title": "Lp0185Choice0",
+                "morale": 1,
+                "georges": 1
+            },
+            {
+                "title": "Lp0185Choice1",
+                "trigger": 187
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0185ResultChoice0Title",
+                "DescriptionKey": "Lp0185ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0185ResultChoice1Title",
+                "DescriptionKey": "Lp0185ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "type": 0,
+        "titleKey": "Lp0195Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0195"
+    },
+    {
+        "id": 47,
+        "type": 0,
+        "titleKey": "Lp0200Title",
+        "titleToCharater": "Lider",
+        "descriptionKey": "Lp0200",
+        "displayRequirements": {
+            "triggerRequirements": [
+                89
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "type": 0,
+        "titleKey": "Lp0201Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0201",
+        "alternativeDescriptions": [
+            {
+                "attackRequirements": 1,
+                "descriptionKey": "Lp0201Option0"
+            },
+            {
+                "attackRequirements": 2,
+                "descriptionKey": "Lp0201Option1"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "type": 1,
+        "titleKey": "Lp0206Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0206",
+        "decisions": [
+            {
+                "title": "Lp0206Choice0",
+                "morale": 1,
+                "trigger": 207
+            },
+            {
+                "title": "Lp0206Choice1",
+                "morale": -1,
+                "triggerRemove": 35
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0206ResultChoice0Title",
+                "DescriptionKey": "Lp0206ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0206ResultChoice1Title",
+                "DescriptionKey": "Lp0206ResultChoice1"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "type": 0,
+        "titleKey": "Lp0212Title",
+        "titleToCharater": "P1",
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    117
+                ],
+                "descriptionKey": "Lp0212Option1"
+            },
+            {
+                "descriptionKey": "Lp0212Option0"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "type": 1,
+        "titleKey": "Lp0216Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0216",
+        "decisions": [
+            {
+                "title": "Lp0216Choice0",
+                "morale": 1,
+                "trigger": 217
+            },
+            {
+                "title": "Lp0216Choice1",
+                "trigger": 218
+            },
+            {
+                "title": "Lp0216Choice2",
+                "trigger": 219
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0216ResultChoice0Title",
+                "DescriptionKey": "Lp0216ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0216ResultChoice1Title",
+                "DescriptionKey": "Lp0216ResultChoice1"
+            },
+            {
+                "titleKey": "Lp0216ResultChoice2Title",
+                "DescriptionKey": "Lp0216ResultChoice2",
+                "AlternativeDescriptionTrigger": 207,
+                "AlternativeDescriptionKey": "Lp0216ResultChoice2Alternative"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "type": 0,
+        "titleKey": "Lp0224Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0224"
+    },
+    {
+        "id": 53,
+        "type": 3,
+        "titleKey": "Lp0230Title",
+        "descriptionKey": "Lp0230",
+        "soldiersAmmount": {
+            "ammount": [
+                4,
+                1,
+                0
+            ],
+            "morale": [
+                3,
+                -4,
+                -6
+            ],
+            "trigger": [
+                231,
+                232,
+                232
+            ],
+            "effectiveness": [
+                0,
+                0,
+                -1
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "type": 0,
+        "titleKey": "Lp0236Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0236",
+        "displayRequirements": {
+            "moraleMoreThan": 9
+        }
+    },
+    {
+        "id": 55,
+        "type": 0,
+        "titleKey": "Lp0236_2Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0236_2",
+        "displayRequirements": {
+            "moraleLessThan": 10
+        },
+        "effectiveness": -1,
+        "trigger": 236
+    },
+    {
+        "id": 56,
+        "type": 0,
+        "titleKey": "Lp0240Title",
+        "titleToCharater": "P1",
+        "descriptionKey": "Lp0240",
+        "displayRequirements": {
+            "triggerRequirements": [
+                231
+            ]
+        },
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    89
+                ],
+                "descriptionKey": "Lp0240Option1"
+            },
+            {
+                "descriptionKey": "Lp0240Option0"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "type": 0,
+        "titleKey": "Lp0244Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0244",
+        "alternativeDescriptions": [
+            {
+                "attackRequirements": 1,
+                "descriptionKey": "Lp0244Option0"
+            },
+            {
+                "attackRequirements": 2,
+                "descriptionKey": "Lp0244Option1"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "type": 3,
+        "attackAlternativeTitle": true,
+        "titleKey": "Lp0246Title",
+        "descriptionKey": "Lp0246",
+        "soldiersAmmount": {
+            "ammount": [
+                2,
+                1,
+                0
+            ],
+            "morale": [
+                3,
+                -4,
+                -4
+            ],
+            "trigger": [
+                247,
+                248,
+                248
+            ],
+            "effectiveness": [
+                0,
+                0,
+                0
+            ],
+            "attackAlternativeDescription": [
+                false,
+                true,
+                false
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "type": 0,
+        "titleKey": "Lp0252Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0252",
+        "displayRequirements": {
+            "triggerRequirements": [
+                247
+            ],
+            "moraleLessThan": 20
+        },
+        "alternativeDescriptions": [
+            {
+                "attackRequirements": 1,
+                "descriptionKey": "Lp0252Option0"
+            },
+            {
+                "attackRequirements": 2,
+                "descriptionKey": "Lp0252Option1"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "type": 0,
+        "titleKey": "Lp0254Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0254",
+        "displayRequirements": {
+            "triggerRequirements": [
+                247
+            ],
+            "moraleLessThan": 10
+        },
+        "trigger": 236
+    },
+    {
+        "id": 61,
+        "type": 0,
+        "titleKey": "Lp0260Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0260",
+        "displayRequirements": {
+            "triggerRequirements": [
+                236
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "type": 1,
+        "titleKey": "Lp0264Title",
+        "titleToCharater": "P4",
+        "descriptionKey": "Lp0264",
+        "decisions": [
+            {
+                "title": "Lp0264Choice0",
+                "morale": 3,
+                "georges": 1
+            },
+            {
+                "title": "Lp0264Choice1",
+                "georges": 1
+            },
+            {
+                "title": "Lp0264Choice2",
+                "georges": -1,
+                "morale": -1,
+                "triggerRequire": 236
+            }
+        ],
+        "results": [
+            {
+                "titleKey": "Lp0264ResultChoice0Title",
+                "DescriptionKey": "Lp0264ResultChoice0"
+            },
+            {
+                "titleKey": "Lp0264ResultChoice1Title",
+                "DescriptionKey": "Lp0264ResultChoice1",
+                "AlternativeDescriptionTrigger": 187,
+                "AlternativeDescriptionKey": "Lp0264ResultChoice1Alternative"
+            },
+            {
+                "titleKey": "Lp0264ResultChoice2Title",
+                "DescriptionKey": "Lp0264ResultChoice2",
+                "AlternativeDescriptionTrigger": 187,
+                "AlternativeDescriptionKey": "Lp0264ResultChoice2Alternative"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "type": 0,
+        "titleKey": "Lp0271Title",
+        "titleToCharater": "All",
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    236,
+                    89
+                ],
+                "descriptionKey": "Lp0271Option3"
+            },
+            {
+                "triggerRequirements": [
+                    236
+                ],
+                "descriptionKey": "Lp0271Option1"
+            },
+            {
+                "triggerRequirements": [
+                    89
+                ],
+                "descriptionKey": "Lp0271Option2"
+            },
+            {
+                "descriptionKey": "Lp0271Option0"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "type": 2,
+        "titleKey": "Wave 1-3",
+        "waveOptions": {
+            "waveTime": [
+                48.0,
+                39.0,
+                30.0,
+                24.0
+            ],
+            "trigger": 207,
+            "triggerTimeModyfication": 20,
+            "moraleMultipler": 3,
+            "ammount": [
+                4,
+                7
+            ],
+            "ammountTrigger": [
+                621,
+                622,
+                623
+            ],
+            "effectiveness": 3,
+            "moraleToAdd": 2,
+            "DescriptionOptionTitleKey0": "Lp0324Option0Title",
+            "DescriptionOptionTitleKey1": "Lp0324Option1Title",
+            "DescriptionOptionKey0": "Lp0324Option0",
+            "DescriptionOptionKey1": "Lp0324Option1",
+            "DescriptionOptionKey1TriggerAlternative": 89
+        }
+    },
+    {
+        "id": 65,
+        "type": 0,
+        "titleKey": "Lp0329Title",
+        "titleToCharater": "All",
+        "displayRequirements": {
+            "triggerRequirements": [
+                217,
+                218
+            ]
+        },
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    218
+                ],
+                "descriptionKey": "Lp0329Option1"
+            },
+            {
+                "descriptionKey": "Lp0329Option0"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "type": 0,
+        "titleKey": "Lp0333Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0333",
+        "displayRequirements": {
+            "triggerRequirements": [
+                280
+            ]
+        },
+        "morale": 3,
+        "trigger": 333
+    },
+    {
+        "id": 67,
+        "type": 0,
+        "titleKey": "Lp0334Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0334",
+        "displayRequirements": {
+            "triggerRequirements": [
+                281
+            ]
+        },
+        "morale": 1
+    },
+    {
+        "id": 68,
+        "type": 0,
+        "titleKey": "Lp0338Title",
+        "titleToCharater": "P3",
+        "descriptionKey": "Lp0338",
+        "displayRequirements": {
+            "triggerRequirements": [
+                236
+            ]
+        }
+    },
+    {
+        "id": 69,
+        "type": 5,
+        "titleKey": "Lp0344Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0344",
+        "displayRequirements": {
+            "triggerRequirements": [
+                622,
+                623
+            ],
+            "effectivenessLessThan": 3
+        },
+        "trigger": 344
+    },
+    {
+        "id": 70,
+        "type": 4,
+        "titleKey": "Lp0345Title",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0345",
+        "displayRequirements": {
+            "triggerNotExist": 344
+        },
+        "alternativeDescriptions": [
+            {
+                "triggerRequirements": [
+                    325
+                ],
+                "descriptionKey": "Lp0345Option1"
+            },
+            {
+                "descriptionKey": "Lp0345Option0"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "type": -1,
+        "titleKey": "END",
+        "titleToCharater": "All",
+        "descriptionKey": "Lp0344"
+    }
+]

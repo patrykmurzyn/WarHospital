@@ -1,0 +1,208 @@
+[
+    {
+        "id": 0,
+        "name": "AntJam",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "AntJam",
+        "AliveCharacter": {
+            "descriptionKey": "AntJamAlive",
+            "effectiveness": 1,
+            "morale": 2
+        },
+        "DeadCharacter": {
+            "descriptionKey": "AntJamDead",
+            "morale": -3
+        }
+    },
+    {
+        "id": 1,
+        "name": "WalSim",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "WalSim",
+        "AliveCharacter": {
+            "descriptionKey": "WalSimAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "WalSimDead",
+            "morale": -2
+        }
+    },
+    {
+        "id": 2,
+        "name": "ChrWat",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "ChrWat",
+        "AliveCharacter": {
+            "descriptionKey": "ChrWatAlive",
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "ChrWatDead",
+            "morale": -1
+        }
+    },
+    {
+        "id": 3,
+        "name": "AndLad",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "AndLad",
+        "AliveCharacter": {
+            "descriptionKey": "AndLadAlive",
+            "effectiveness": 2,
+            "morale": 2
+        },
+        "DeadCharacter": {
+            "descriptionKey": "AndLadDead",
+            "morale": -3
+        }
+    },
+    {
+        "id": 4,
+        "name": "MatRow",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "MatRow",
+        "AliveCharacter": {
+            "descriptionKey": "MatRowAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "MatRowDead",
+            "morale": -2
+        }
+    },
+    {
+        "id": 5,
+        "name": "GorPhi",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "GorPhi",
+        "AliveCharacter": {
+            "descriptionKey": "GorPhiAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "GorPhiDead",
+            "morale": -2
+        }
+    },
+    {
+        "id": 6,
+        "name": "JerWes",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "JerWes",
+        "AliveCharacter": {
+            "descriptionKey": "JerWesAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "JerWesDead",
+            "morale": -2
+        }
+    },
+    {
+        "id": 7,
+        "name": "WilCoo",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "WilCoo",
+        "AliveCharacter": {
+            "descriptionKey": "WilCooAlive",
+            "effectiveness": 2,
+            "morale": 2,
+            "trigger": 280
+        },
+        "DeadCharacter": {
+            "descriptionKey": "WilCooDead",
+            "morale": -3,
+            "trigger": 281
+        }
+    },
+    {
+        "id": 8,
+        "name": "EwaTan",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "EwaTan",
+        "AliveCharacter": {
+            "descriptionKey": "EwaTanAlive",
+            "alternativeDescriptionTrigger": 89,
+            "alternativeDescription": "EwaTanAliveAlternative",
+            "effectiveness": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "EwaTanDead",
+            "alternativeDescriptionTrigger": 89,
+            "alternativeDescription": "EwaTanDeadAlternative",
+            "morale": -1
+        }
+    },
+    {
+        "id": 9,
+        "name": "HenSta",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "HenSta",
+        "AliveCharacter": {
+            "descriptionKey": "HenStaAlive",
+            "alternativeDescriptionTrigger": 89,
+            "alternativeDescription": "HenStaAliveAlternative",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "HenStaDead",
+            "alternativeDescriptionTrigger": 89,
+            "alternativeDescription": "HenStaDeadAlternative",
+            "morale": -1
+        }
+    },
+    {
+        "id": 10,
+        "name": "GeoWid",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "GeoWid",
+        "AliveCharacter": {
+            "descriptionKey": "GeoWidAlive",
+            "effectiveness": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "GeoWidDead",
+            "morale": -2
+        }
+    },
+    {
+        "id": 11,
+        "name": "BenWin",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "BenWin",
+        "AliveCharacter": {
+            "descriptionKey": "BenWinAlive",
+            "alternativeDescriptionTrigger": 89,
+            "alternativeDescription": "BenWinAliveAlternative",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "BenWinDead",
+            "alternativeDescriptionTrigger": 89,
+            "alternativeDescription": "BenWinDeadAlternative",
+            "morale": -2
+        }
+    },
+    {
+        "id": 12,
+        "name": "AlbCum",
+        "image": "Assets/Images/Characters/character0.png",
+        "qr": "AlbCum",
+        "AliveCharacter": {
+            "descriptionKey": "AlbCumAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "AlbCumDead",
+            "morale": -2
+        }
+    }
+]
