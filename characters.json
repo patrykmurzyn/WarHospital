@@ -2,7 +2,6 @@
     {
         "id": 0,
         "name": "AntJam",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "AntJam",
         "AliveCharacter": {
             "descriptionKey": "AntJamAlive",
@@ -17,7 +16,6 @@
     {
         "id": 1,
         "name": "WalSim",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "WalSim",
         "AliveCharacter": {
             "descriptionKey": "WalSimAlive",
@@ -32,7 +30,6 @@
     {
         "id": 2,
         "name": "ChrWat",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "ChrWat",
         "AliveCharacter": {
             "descriptionKey": "ChrWatAlive",
@@ -46,7 +43,6 @@
     {
         "id": 3,
         "name": "AndLad",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "AndLad",
         "AliveCharacter": {
             "descriptionKey": "AndLadAlive",
@@ -61,7 +57,6 @@
     {
         "id": 4,
         "name": "MatRow",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "MatRow",
         "AliveCharacter": {
             "descriptionKey": "MatRowAlive",
@@ -76,7 +71,6 @@
     {
         "id": 5,
         "name": "GorPhi",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "GorPhi",
         "AliveCharacter": {
             "descriptionKey": "GorPhiAlive",
@@ -91,7 +85,6 @@
     {
         "id": 6,
         "name": "JerWes",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "JerWes",
         "AliveCharacter": {
             "descriptionKey": "JerWesAlive",
@@ -106,7 +99,6 @@
     {
         "id": 7,
         "name": "WilCoo",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "WilCoo",
         "AliveCharacter": {
             "descriptionKey": "WilCooAlive",
@@ -123,7 +115,6 @@
     {
         "id": 8,
         "name": "EwaTan",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "EwaTan",
         "AliveCharacter": {
             "descriptionKey": "EwaTanAlive",
@@ -141,7 +132,6 @@
     {
         "id": 9,
         "name": "HenSta",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "HenSta",
         "AliveCharacter": {
             "descriptionKey": "HenStaAlive",
@@ -160,7 +150,6 @@
     {
         "id": 10,
         "name": "GeoWid",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "GeoWid",
         "AliveCharacter": {
             "descriptionKey": "GeoWidAlive",
@@ -174,7 +163,6 @@
     {
         "id": 11,
         "name": "BenWin",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "BenWin",
         "AliveCharacter": {
             "descriptionKey": "BenWinAlive",
@@ -193,7 +181,6 @@
     {
         "id": 12,
         "name": "AlbCum",
-        "image": "Assets/Images/Characters/character0.png",
         "qr": "AlbCum",
         "AliveCharacter": {
             "descriptionKey": "AlbCumAlive",
@@ -203,6 +190,260 @@
         "DeadCharacter": {
             "descriptionKey": "AlbCumDead",
             "morale": -2
+        }
+    },
+    {
+        "id": 13,
+        "name": "GerLaf",
+        "qr": "GerLaf",
+        "AliveCharacter": {
+            "descriptionKey": "GerLafAlive",
+            "effectiveness": 1,
+            "morale": 2
+        },
+        "DeadCharacter": {
+            "descriptionKey": "GerLafDead",
+            "effectiveness": -1,
+            "morale": -2,
+            "trigger": 442
+        }
+    },
+    {
+        "id": 14,
+        "name": "PieTul",
+        "qr": "PieTul",
+        "AliveCharacter": {
+            "descriptionKey": "PieTulAlive",
+            "effectiveness": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "PieTulDead",
+            "effectiveness": -1
+        }
+    },
+    {
+        "id": 15,
+        "name": "GuyLed",
+        "qr": "PieTul",
+        "AliveCharacter": {
+            "descriptionKey": "PieTulAlive",
+            "effectiveness": 1,
+            "morale": 2,
+            "trigger": 449
+        },
+        "DeadCharacter": {
+            "descriptionKey": "PieTulDead",
+            "effectiveness": -1,
+            "morale": -1
+        }
+    },
+    {
+        "id": 16,
+        "name": "LudGri",
+        "qr": "LudGri",
+        "AliveCharacter": {
+            "descriptionKey": "LudGriAlive",
+            "alternativeDescriptionTrigger": 449,
+            "alternativeDescription": "LudGriAliveAlternative",
+            "effectiveness": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "LudGriDead",
+            "alternativeDescriptionTrigger": 449,
+            "alternativeDescription": "LudGriDeadAlternative",
+            "morale": -1,
+            "effectiveness": -1
+        }
+    },
+    {
+        "id": 17,
+        "name": "FabPie",
+        "qr": "FabPie",
+        "AliveCharacter": {
+            "descriptionKey": "FabPieAlive",
+            "alternativeDescriptionTrigger": 517,
+            "alternativeDescription": "FabPieAliveAlternative",
+            "effectiveness": 1,
+            "morale": -1,
+            "trigger": 591
+        },
+        "DeadCharacter": {
+            "descriptionKey": "FabPieDead",
+            "alternativeDescriptionTrigger": 517,
+            "alternativeDescription": "FabPieDeadAlternative",
+            "morale": -1,
+            "effectiveness": -2
+        }
+    },
+    {
+        "id": 18,
+        "name": "WilMcc",
+        "qr": "WilMcc",
+        "AliveCharacter": {
+            "descriptionKey": "WilMccAlive",
+            "effectiveness": 2,
+            "morale": 1,
+            "trigger": 597
+        },
+        "DeadCharacter": {
+            "descriptionKey": "WilMccDead",
+            "effectiveness": -2,
+            "morale": 1
+        }
+    },
+    {
+        "id": 19,
+        "name": "GeoTow",
+        "qr": "GeoTow",
+        "AliveCharacter": {
+            "descriptionKey": "GeoTowAlive",
+            "effectiveness": 1,
+            "morale": 1,
+            "trigger": 603
+        },
+        "DeadCharacter": {
+            "descriptionKey": "GeoTowDead",
+            "effectiveness": 1,
+            "morale": 1
+        }
+    },
+    {
+        "id": 20,
+        "name": "JamLic",
+        "qr": "JamLic",
+        "AliveCharacter": {
+            "descriptionKey": "JamLicAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "JamLicDead",
+            "effectiveness": -1,
+            "morale": -1
+        }
+    },
+    {
+        "id": 21,
+        "name": "TimLaw",
+        "qr": "TimLaw",
+        "AliveCharacter": {
+            "descriptionKey": "TimLawAlive",
+            "effectiveness": 2,
+            "morale": 3,
+            "trigger": 615
+        },
+        "DeadCharacter": {
+            "descriptionKey": "TimLawDead",
+            "effectiveness": -2,
+            "morale": -2
+        }
+    },
+    {
+        "id": 22,
+        "name": "ChaWin",
+        "qr": "ChaWin",
+        "AliveCharacter": {
+            "descriptionKey": "ChaWinAlive",
+            "effectiveness": 1,
+            "trigger": 621
+        },
+        "DeadCharacter": {
+            "descriptionKey": "ChaWinDead",
+            "effectiveness": -2
+        }
+    },
+    {
+        "id": 23,
+        "name": "AdrDeL",
+        "qr": "AdrDeL",
+        "AliveCharacter": {
+            "descriptionKey": "AdrDeLAlive",
+            "alternativeDescriptionTrigger": 722,
+            "alternativeDescription": "AdrDeLAliveAlternative",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "AdrDeLDead",
+            "morale": -1,
+            "effectiveness": -1
+        }
+    },
+    {
+        "id": 24,
+        "name": "BerDes",
+        "qr": "BerDes",
+        "AliveCharacter": {
+            "descriptionKey": "BerDesAlive",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "BerDesDead",
+            "effectiveness": -1,
+            "morale": -1
+        }
+    },
+    {
+        "id": 25,
+        "name": "ChrPol",
+        "qr": "ChrPol",
+        "AliveCharacter": {
+            "descriptionKey": "ChrPolAlive",
+            "effectiveness": 3,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "ChrPolDead",
+            "effectiveness": -1,
+            "morale": -2
+        }
+    },
+    {
+        "id": 26,
+        "name": "BlaPom",
+        "qr": "BlaPom",
+        "AliveCharacter": {
+            "descriptionKey": "BlaPomAlive",
+            "alternativeDescriptionTrigger": 722,
+            "alternativeDescription": "BlaPomAliveAlternative",
+            "effectiveness": 1,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "BlaPomDead",
+            "effectiveness": -1,
+            "morale": -1
+        }
+    },
+    {
+        "id": 26,
+        "name": "AndRoi",
+        "qr": "AndRoi",
+        "AliveCharacter": {
+            "descriptionKey": "AndRoiAlive",
+            "effectiveness": 2,
+            "morale": 1
+        },
+        "DeadCharacter": {
+            "descriptionKey": "AndRoiDead",
+            "effectiveness": -1,
+            "morale": -1
+        }
+    },
+    {
+        "id": 27,
+        "name": "CJFlyn",
+        "qr": "CJFlyn",
+        "AliveCharacter": {
+            "descriptionKey": "CJFlynAlive",
+            "effectiveness": 2,
+            "morale": 3
+        },
+        "DeadCharacter": {
+            "descriptionKey": "CJFlynDead",
+            "effectiveness": -3,
+            "morale": -1
         }
     }
 ]
